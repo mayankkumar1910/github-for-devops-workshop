@@ -1,0 +1,23 @@
+ 1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegrat... 
+   2 git status
+   3 ls
+   4 git status
+   5 git add .\testing.py
+   6 git status
+   7 git rm --cached .\testing.py
+   8 git status
+   9 git commit -m "adding testing file"
+  10 git status
+  11 git add .\testing.py
+  12 git status
+  13 git commit -m "adding testing file"
+  14 git commit -m "adding testing file"
+  15 git config user.email "mayankkumar191@gmail.com"
+  16 git config user.name "mayank"
+  17 git commit -m "adding testing file"
+  18 git status
+  19 rm .\testing.py
+  20 ls
+  21 git status
+  22 git restore testing.py
+  23 git status
